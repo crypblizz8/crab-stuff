@@ -4,6 +4,8 @@ Learning Rust via ChatGPT assistance in 30 days.
 
 Goal: Understand overview of Rust lanuage + write simple programs + probably a bigger project
 
+This is not an attempt to speed learn a programming language but an accountability approach to discipline myself to learn.
+
 30 Days:
 
 - `day-one`: What to learn + Basic Syntax
@@ -29,6 +31,8 @@ Small exercises
 Other Websites / Blogs
 
 - [Learn Rust Gist](https://gist.github.com/rylev/f76b8e9567a722f1b157a69a4f98f1c1)
+- [A half-hour to learn Rust, essentially a cheatsheet](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
+- [Learn Rust in Y minutes, much simpler / basic to the above](https://learnxinyminutes.com/docs/rust/)
 
 Videos
 
