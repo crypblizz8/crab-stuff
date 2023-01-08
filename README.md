@@ -7,7 +7,7 @@ Using ChatGPT to guide me to learn Rust in 30 days.
 
 ### Resources
 
-Search & Summarises.
+Search & Summaries.
 - ChatGPT
 
 Mandatory
