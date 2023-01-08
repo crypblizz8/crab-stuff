@@ -4,19 +4,16 @@ Time Spent on Day One: XXX
 
 Goals for Day One
 
-- Figure out the main resources
-- Figure out the cirriculum
-- Start understanding the data structures etc.
+- [ ] Figure out the main resources
+- [x] Figure out the cirriculum
+- [x] Start understanding the data structures etc.
 
 Completed
 
 - Used ChatGPT to summarise a 1H Youtube Video Course + understand the notes
 - Speed 2x watched another YT tutorial
-- ***
 
 ### Learnings.
-
-My Personal Summary of the above
 
 Summarize varibles + other data tyes.
 
