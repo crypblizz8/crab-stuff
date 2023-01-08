@@ -1,7 +1,7 @@
 # crab-stuff
 Learning Rust via ChatGPT assistance in 30 days. 
 
-Goal of these 30 days: understand overview of Rust lanuage + write simple programs + probably a bigger project
+Goal: Understand overview of Rust lanuage + write simple programs + probably a bigger project
 
 - `day-one`: What to learn + Basic Syntax
 
