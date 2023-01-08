@@ -12,9 +12,55 @@ Completed
 
 - Used ChatGPT to summarise a 1H Youtube Video Course + understand the notes
 - Speed 2x watched another YT tutorial
--
+- ***
+
+### Learnings.
+
+My Personal Summary of the above
+
+Summarize varibles + other data tyes.
+
+- immutable `variables`.
+- integer data types are like Solidity `u64`, `i32` + floating numbers such as `f32`, `f64` -`compound data types`: arrays + tuples.
+- `const` are fixed
+- standard conditionals: `if`, `else`, and `else if`.
+- Loops: `loop`, `while`, and `for`. + `break` and `continue`
+- Tuples: ordered collection of fixed-size items. Array + tuples are different.
+- `Enums`: type that represents a short value. Similar to Solidity.
+
+Tuples + Array Difference.
+
+- Types: Tuples (T) can have different types but arrays (A) has one type
+- Size: T has a fixed size
+- Indexing: `tuple[(2)]` vs. `array[2]`
+- Mutability: Both M + IM
+
+What is a trait in a Tuple / Array
+
+- Trait: features of types
+- `Copy`: Copy directly + no extra allocation of memory
+- `Clone`: Copy directly + extra allocation of memory
+- `IntoIterator`: Value turns into a iterator which is a type that produces sequence of values one at a time.
+- Other traits but the above are the basics.
+
+IntoIterator usage
+
+```
+let array = [1, 2, 3];
+
+// Convert the array into an iterator
+let mut iterator = array.into_iter();
+
+// Use the iterator to access the values in the array
+assert_eq!(iterator.next(), Some(1));
+assert_eq!(iterator.next(), Some(2));
+assert_eq!(iterator.next(), Some(3));
+assert_eq!(iterator.next(), None); // The iterator is exhausted
+```
 
 ---
+
+### ChatGPT Prompts
 
 ### [Rust Language 🦀 Crash Course](https://www.youtube.com/watch?v=nweNM-TQYfs)
 
@@ -112,13 +158,6 @@ Ownership: Tuples and arrays can both have ownership of the values they contain.
 Traits: Tuples and arrays have different sets of implemented traits. For example, tuples implement the Copy and Clone traits, while arrays do not. On the other hand, arrays implement the IntoIterator trait, while tuples do not.
 ```
 
-My Personal Summary of the above
-
-- Types: Tuples (T) can have different types but arrays (A) has one type
-- Size: T has a fixed size
-- Indexing: `tuple[(2)]` vs. `array[2]`
-- Mutability: Both M + IM
-
 ````
 Expand on this please ```Traits: Tuples and arrays have different sets of implemented traits. For example, tuples implement the Copy and Clone traits, while arrays do not. On the other hand, arrays implement the IntoIterator trait, while tuples do not.```
 ````
@@ -135,14 +174,6 @@ IntoIterator: This trait allows a value to be converted into an iterator. An ite
 There are many other traits in Rust, and different types implement different sets of traits depending on their behavior. You can learn more about Rust traits in the official documentation: https://doc.rust-lang.org/stable/book/ch10-02-traits.html
 
 ```
-
-My Personal Summary of the above
-
-- Trait: features of types
-- `Copy`: Copy directly + no extra allocation of memory
-- `Clone`: Copy directly + extra allocation of memory
-- `IntoIterator`: Value turns into a iterator which is a type that produces sequence of values one at a time.
-- Other traits but the above are the basics.
 
 Here is an example of using the IntoIterator trait to convert an array into an iterator in Rust:
 
