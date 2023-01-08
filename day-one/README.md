@@ -13,6 +13,8 @@ Completed
 - Used ChatGPT to summarise a 1H Youtube Video Course + understand the notes
 - Speed 2x watched another YT tutorial
 
+---
+
 ### Learnings.
 
 Summarize varibles + other data tyes.
@@ -40,7 +42,7 @@ What is a trait in a Tuple / Array
 - `IntoIterator`: Value turns into a iterator which is a type that produces sequence of values one at a time.
 - Other traits but the above are the basics.
 
-IntoIterator usage
+`IntoIterator` usage
 
 ```
 let array = [1, 2, 3];
@@ -78,9 +80,7 @@ In this video, the speaker continues their tutorial on Rust programming by discu
 
 So decided to copy + topic in the Youtube Timestamp
 
-```
-CHATGPT: Summarize Variables and Data types, Constants,  Conditionals , Loops / Break and Continue, For Loop , while Loop , tuples and Enums in Rust programming language for a mid level developer
-```
+Summarize Variables and Data types, Constants, Conditionals , Loops / Break and Continue, For Loop , while Loop , tuples and Enums in Rust programming language for a mid level developer
 
 ```
 Sure! Here is a summary of some basic concepts in the Rust programming language:
@@ -123,19 +123,7 @@ Enums can be used to define a type with a small number of possible values.
 Each value in an enum is called a variant.
 ```
 
-My Personal Summary of the above
-
-- immutable `variables`.
-- integer data types are like Solidity `u64`, `i32` + floating numbers such as `f32`, `f64` -`compound data types`: arrays + tuples.
-- `const` are fixed
-- standard conditionals: `if`, `else`, and `else if`.
-- Loops: `loop`, `while`, and `for`. + `break` and `continue`
-- Tuples: ordered collection of fixed-size items. Array + tuples are different.
-- `Enums`: type that represents a short value. Similar to Solidity.
-
-```
-CHATGPT: What is the difference between a tuple + array in Rust programming language?
-```
+What is the difference between a tuple + array in Rust programming language?
 
 ```
 In Rust, a tuple is a fixed-size collection of values with different types. Tuples are often used to store related pieces of data, such as a person's name and age. An array, on the other hand, is a collection of values with the same type, stored in contiguous memory.
@@ -155,9 +143,7 @@ Ownership: Tuples and arrays can both have ownership of the values they contain.
 Traits: Tuples and arrays have different sets of implemented traits. For example, tuples implement the Copy and Clone traits, while arrays do not. On the other hand, arrays implement the IntoIterator trait, while tuples do not.
 ```
 
-````
-Expand on this please ```Traits: Tuples and arrays have different sets of implemented traits. For example, tuples implement the Copy and Clone traits, while arrays do not. On the other hand, arrays implement the IntoIterator trait, while tuples do not.```
-````
+Expand on this please `Traits: Tuples and arrays have different sets of implemented traits. For example, tuples implement the Copy and Clone traits, while arrays do not. On the other hand, arrays implement the IntoIterator trait, while tuples do not.`
 
 ```
 In Rust, a trait is a feature that a type can have. It defines a set of methods that a type can implement. Different types can implement the same trait in different ways, depending on their specific behavior.
