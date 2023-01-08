@@ -8,6 +8,8 @@ Suggestions:
 - Exercises + small projects
 - Read other code
 
+---
+
 ### Resources
 
 Mandatory
