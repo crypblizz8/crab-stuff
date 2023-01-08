@@ -1,5 +1,6 @@
 # crab-stuff
-Learning Rust via ChatGPT assistance in 30 days. 
+
+Learning Rust via ChatGPT assistance in 30 days.
 
 Goal: Understand overview of Rust lanuage + write simple programs + probably a bigger project
 
@@ -10,12 +11,15 @@ Goal: Understand overview of Rust lanuage + write simple programs + probably a b
 ### Resources
 
 Search & Summaries.
+
 - ChatGPT
 
 Mandatory
-- The Crab Book
-- Docs. 
+
+- [The Rust Programming Book](https://doc.rust-lang.org/stable/book/)
+- [Docs](https://www.rust-lang.org/learn)
 
 Small exercises
-- Rustling
-- Rust by Example
+
+- [Rust by Example: Go through Rust with code exercises](https://doc.rust-lang.org/rust-by-example/)
+- [Rustlings: Similar to Rust by Example but in a console](https://github.com/rust-lang/rustlings)

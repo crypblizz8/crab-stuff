@@ -57,6 +57,12 @@ assert_eq!(iterator.next(), Some(3));
 assert_eq!(iterator.next(), None); // The iterator is exhausted
 ```
 
+Installation
+
+- Easy install on various platforms.
+- Similar to `C` with the `rustc main.rs` + `./main` execution command.
+- Cool first Rust Program. Also looks the same as per the Rust Docs.
+
 ---
 
 ### ChatGPT Prompts
@@ -78,9 +84,7 @@ In this video, the speaker continues their tutorial on Rust programming by discu
 
 ```
 
-So decided to copy + topic in the Youtube Timestamp
-
-Summarize Variables and Data types, Constants, Conditionals , Loops / Break and Continue, For Loop , while Loop , tuples and Enums in Rust programming language for a mid level developer
+2. So decided to copy + topic in the Youtube Timestamp: Summarize Variables and Data types, Constants, Conditionals , Loops / Break and Continue, For Loop , while Loop , tuples and Enums in Rust programming language for a mid level developer
 
 ```
 Sure! Here is a summary of some basic concepts in the Rust programming language:
@@ -143,7 +147,7 @@ Ownership: Tuples and arrays can both have ownership of the values they contain.
 Traits: Tuples and arrays have different sets of implemented traits. For example, tuples implement the Copy and Clone traits, while arrays do not. On the other hand, arrays implement the IntoIterator trait, while tuples do not.
 ```
 
-Expand on this please `Traits: Tuples and arrays have different sets of implemented traits. For example, tuples implement the Copy and Clone traits, while arrays do not. On the other hand, arrays implement the IntoIterator trait, while tuples do not.`
+3. Expand on this please `Traits: Tuples and arrays have different sets of implemented traits. For example, tuples implement the Copy and Clone traits, while arrays do not. On the other hand, arrays implement the IntoIterator trait, while tuples do not.`
 
 ```
 In Rust, a trait is a feature that a type can have. It defines a set of methods that a type can implement. Different types can implement the same trait in different ways, depending on their specific behavior.
@@ -158,9 +162,11 @@ There are many other traits in Rust, and different types implement different set
 
 ```
 
-Here is an example of using the IntoIterator trait to convert an array into an iterator in Rust:
+4. Give an example of `IntoIterator` conversion in Rust
 
 ```
+Here is an example of using the IntoIterator trait to convert an array into an iterator in Rust:
+
 let array = [1, 2, 3];
 
 // Convert the array into an iterator
