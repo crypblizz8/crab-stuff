@@ -3,7 +3,9 @@ Learning Rust / the crab language
 
 Using ChatGPT to guide me to learn Rust in 30 days. 
 
-`day-one`: What to learn + Basic Syntax
+Goal of these 30 days: understand overview of Rust lanuage + write simple programs + probably a bigger project
+
+- `day-one`: What to learn + Basic Syntax
 
 ---
 
